@@ -1,0 +1,159 @@
+body {
+  font-size: 16px;
+  color: #000000;
+  background-color: #ffffff;
+  font-family: 'Balsamiq Sans';
+}
+
+/** HEADER **/
+.container-fluid{
+  margin: 0;
+  padding: 0;
+}
+.row{
+  margin: 15px;
+}
+#header-nav {
+  background-color: #999999;
+  border-radius: 0;
+  border: 2px solid #000000;
+}
+.navbar-brand {
+  padding-top: 25px;
+  height: 70px;
+}
+.navbar-brand h1 { 
+  font-family: 'Balsamiq Sans';
+  color: #000000;
+  font-size: 1.5em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 15px;
+  line-height: .75;
+}
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+#nav-list {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+#nav-list a {
+  color: #000000;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid #ffffff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+    border-color: #ffffff;
+    width: 35px;
+    height: 6px;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -20px;
+}
+
+.menu_list {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid black;
+    color: black;
+    display: block;
+}
+/* END HEADER */
+
+/* HOME PAGE */
+
+h1.title{
+  font-family: 'Balsamiq Sans';
+}
+section{
+  width: auto;
+  height: auto;
+  color: black;
+  background-color: #999999;
+  font-family: 'Balsamiq Sans';
+  padding: 20px;
+  margin: 15px 0;
+}
+h3{
+  margin: 0 0 10px 0;
+  font-weight: bold;
+}
+
+/* END HOME PAGE */
+
+
+/********** Small devices only **********/
+@media (min-width: 768px) {
+  
+  /* Header */
+  .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 0px;
+  }
+  /* End Header */
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 70px;
+  }
+  .navbar-brand h1 { 
+    padding-top: 15px;
+    font-size: 1.5em; 
+  }
+  .navbar-header button.navbar-toggle {
+    margin-top: -63px;
+}
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+    color: #000000;
+    font-family: 'Balsamiq Sans';
+  }
+  .navbar-toggle {
+    padding: 10px 8px;
+    background-color: transparent;
+    border-radius: 4px;
+}
+
+.navbar-toggle .icon-bar+.icon-bar {
+    margin-top: 7px;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-top: 2px solid #000000;
+    background-color: white;
+}
+.navbar-header button.collapsed, .navbar-header .icon-bar {
+  border: 2px solid #000000;
+}
+.navbar-default .collapsed .icon-bar {
+    background-color: black;
+    border-color: black;
+}
+ section {
+    margin: 15px 30px;
+}
+  /* End Header */
+
+  
+}
+
